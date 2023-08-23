@@ -78,5 +78,5 @@ func fileWriter(description string, html []byte) {
 	}
 
 	io.Copy(data, strings.NewReader(string(html)))
-	fmt.Println("-- Content Updated")
+	fmt.Println("-- Content Updated, this could be a mailer job")
 }
