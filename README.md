@@ -8,3 +8,5 @@ DB_USER=
 DB_PASSWORD=
 DB_NAME=
 ```
+
+To run: `go run main.go`
